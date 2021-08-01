@@ -1986,7 +1986,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 441351e4eda4b4fa3bfa20ce20ef784c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridSize: {x: 5, y: 5}
+  gridSize: {x: 6, y: 6}
   unityGridSize: 10
 --- !u!4 &1433257183
 Transform:
@@ -3004,17 +3004,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 953752474778999702, guid: 04bd17c705ffc4f55b9caab065c69039, type: 3}
+      propertyPath: poolSize
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 953752474778999702, guid: 04bd17c705ffc4f55b9caab065c69039, type: 3}
+      propertyPath: spawnRate
+      value: 2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 953752474778999703, guid: 04bd17c705ffc4f55b9caab065c69039, type: 3}
       propertyPath: m_Name
       value: Object Pool
       objectReference: {fileID: 0}
     - target: {fileID: 1426697796943936929, guid: 04bd17c705ffc4f55b9caab065c69039, type: 3}
       propertyPath: startCoordinates.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1426697796943936929, guid: 04bd17c705ffc4f55b9caab065c69039, type: 3}
       propertyPath: destinationCoordinates.x
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1426697796943936929, guid: 04bd17c705ffc4f55b9caab065c69039, type: 3}
       propertyPath: destinationCoordinates.y
